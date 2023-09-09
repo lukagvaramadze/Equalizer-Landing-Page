@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+html,body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: 'IBM Plex Sans', sans-serif;
+  
+}
+body{
+    
+    background-image: url(bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position: 30px -170px;
+    background-size: 510px auto;
+    
+}
+
+
+#logo{
+    padding: 24px;
+}
+
+#first-heading{
+    font-size: 40px;
+    font-weight: 700;
+    width: 320px;
+    padding-left: 24px;
+}
+
+#first-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: #191826;
+    width: 327px;
+    padding-left: 24px;
+}
+
+#android-photo{
+    width: 210px;
+    height: 430px;
+    display: block;
+    margin: auto;
+    margin-bottom: -300px;
+    position: relative;
+}
+
+#sec2-photo{
+    display: block;
+    margin: auto;
+    width: 280px;
+    height: 420px;
+    
+}
+
+#section2{
+    width: 100%;
+    background-color: #191826;
+}
+
+#section3{
+    background-color: #FA7453;
+}
+#sec3-heading{
+    font-size: 32px;
+    font-weight: 700;
+    padding-left: 36px;
+    color: #FCFAF9;
+}
+
+#sec3-paragraph{
+    font-size: 18px;
+    color: #FCFAF9;
+    font-weight: 400;
+    width: 300px;
+    padding-left: 36px;
+}
+
+#money-heading{
+    font-size: 65px;
+    color: #FCFAF9;
+    margin: 0;
+}
+#money-paragraph{
+    font-size: 20px;
+    color: #FCFAF9;
+}
+#money{
+    display: flex;
+    align-items: center;
+    padding-left: 36px;
+    margin: 0;
+}
+
+#but-txt{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FCFAF9;
+}
+#sec3-but{
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    background-color: #191826;
+    margin: auto;
+    display: block;
+}
+
+#but-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+#sec3-but-2{
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    background-color: #FCFAF9;
+    margin: auto;
+    display: block;
+}
+
+#but-txt-2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #191826;
+}
+
+#section3{
+    border-radius: 10px;
+    margin-top: -40px;
+    position: relative;
+}
+
+#sec4-logo{
+    padding: 24px;
+}
+
+#sec4-paragraph{
+    color: #191826;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 24px;
+    width: 310px;
+}
+#sec4-span{
+    color: #191826;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#icons{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    padding-left: 24px;
+}
+
+@media (min-width:750px) {
+
+    body{
+        background: url(bg-main-tablet.png) -170px -180px no-repeat, 
+                    url(bg-pattern-1.svg) 107% -30px no-repeat;
+        background-size: min(983px, 808px), min(266px, 400px);
+    }
+
+    #first-heading{
+        font-size: 64px;
+        width: 500px;
+        
+    }
+    #first-paragraph{
+        width: 514px;
+        font-size: 18px;
+    }
+    #android-photo{
+        margin-left: 97px;
+        width: 270px;
+        height: 550px;
+        margin-bottom: -400px;
+    }
+    #section2{
+        width: 93%;
+        margin: auto;
+        border-radius: 15px;
+        height: 550px;
+    }
+    #section3{
+        width: 400px;
+        height: 540px;
+        margin-left: 272px;
+        margin-top: -420px;
+    }
+    #sect4-paragraph{
+        width: 360px;
+    }
+    #section4{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    #icon{
+        width: 20px;
+        height: 20px;
+    }
+}
+@media (min-width:1440px){
+    body{
+        background: url(bg-main-desktop.png) 70px -190px no-repeat, 
+                    url(bg-pattern-1.svg) 100% -35px no-repeat;
+    background-size: 170vh, 312px;
+    }
+
+    #logo{
+        padding-left: 160px;
+    }
+    #first-heading{
+        padding-left: 160px;
+        font-size: 88px;
+        width: 1000px;
+    }
+    #first-paragraph{
+        padding-left: 160px;
+        font-size: 20px;
+        width: 900px;
+    }
+
+    #section2{
+        width: 83%;
+
+    }
+    #android-photo{
+        margin-left: 540px;
+        width: 315px;
+        height: 645px;
+        margin-bottom: -500px;
+    }
+    #section3{
+        margin-left: 1000px;
+    }
+    #section4{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+    }
+    #sec4-logo{
+        padding-left: 160px;
+    }
+    #sec4-paragraph{
+        margin: 0;
+        width: 366px;
+        font-size: 16px;
+    }
+    #ending{
+        display: flex;
+        width: 85%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    #sec4-logo{
+        padding: 0;
+        width: 146px;
+       
+    }
+    #sec3-but:hover{
+        background-color: #66E2DC;
+    }
+    #sec3-but-2:hover{
+        background-color: #FFB964;
+    }
+    
+}
